@@ -10,21 +10,10 @@ for 4 academic years. There is information about their academic performance and
 contextual information (about their families, teachers, and school). The database contains a subset of data 
 in the form of panel data, meaning information about the same students at different points in time (ULL_panel_data).
 
-Machine learning algorithms can be used to predict at-risk students. 
-A student is considered at risk if they are anticipated to have low academic performance in the future. 
-Detecting these students would allow for corrective measures to be taken in advance.
-
-As a measure of academic performance, we have the variables "scores".
-We have academic performance in Mathematics and in Spanish Language
-
-We specify a model to predict at-risk students. Utilizing the panel data,
-the model aims to forecast whether the student will be at risk in the future (in 6th grade)
-based on various predictors of current academic performance (3rd grade).
-
 Each observation (row) in ULL_panel_data is a student, with their academic performance in sixth grade 
 and their predictors of academic performance from third grade (columns).
 """
-directory = "C:/Users/angel/Documents/61_Proyecto_Aequitas/5_Modelo_Juguete_R/3_Python/1_Final"
+directory = "C:/Users/..."
 os.chdir(directory)
 
 # Load data
