@@ -17,8 +17,7 @@ The files need to be run in order:
 
 ### Explanation
 + original.csv contains a dataset on academic performance of primary and secondary education students from the Canary Islands.
-Each row refers to a single student at a given grade (3th and 6th grades of primary education and 4th grade of secondary education) and academic year (2015-16, 2016-17, 2017-18, 2018-19).
-+ Longitudinal data (panel data) is also included: students in 3th grade of primary education in 2015-16 are sampled again in 6th grade of primary education in 2018-19.
+Each row refers to a single student at a given grade (3th and 6th grades of primary education and 4th grade of secondary education) and academic year (2015-16, 2016-17, 2017-18, 2018-19). Longitudinal data (panel data) is also included: students in 3th grade of primary education in 2015-16 are sampled again in 6th grade of primary education in 2018-19.
 + The columns of the dataset represent relevant features collected for each student: identifiers, academic performance in various subjects, and responses to questionnaires addressed to the students, their families, their teachers, and the school principals.
 + In the data folder, there is an Excel file (data_dictionary.xlsx) where you can find the definitions of each variable and the possible values they can take.
 + data_code.py in the data folder takes the complete database (original.csv) and retains only the longitudinal data. Since our goal is to predict students' future academic performance using current information, the code merges the students' academic performance in 6th grade with the information from 3rd grade, generating ULL_panel_data.csv. Each row in ULL_panel_data.csv represents a student who was surveyed in both 3rd grade and 6th grade. The columns include their academic performance in mathematics in 6th grade and information about a set of variables (called circumstances) in 3rd grade.
