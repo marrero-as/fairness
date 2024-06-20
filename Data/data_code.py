@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-directory = "C:/Users/angel/Documents/61_Proyecto_Aequitas/5_Modelo_Juguete_R/3_Python/1_Final/Data"
+directory = "C:/Users/..."
 os.chdir(directory)
 
 # Load data
