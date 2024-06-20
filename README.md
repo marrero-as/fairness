@@ -1,10 +1,9 @@
 
-**This repository contains the source code to replicate the results of the following paper:**
+###This repository contains the source code to replicate the results of the following paper:
 
 Marrero, A.S., Marrero, G., Bethencourt, C., Liam, J. Calegari, R. "AI-fairness and equality of opportunity: a case study on educational achievement". AEQUITAS 2024 - Workshop on Fairness and Bias in AI.
 
-**How to reproduce the results in the paper**
-
+###How to reproduce the results in the paper**
 This is the project structure:
 
 + data/ Input data files.
